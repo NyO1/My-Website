@@ -1,0 +1,83 @@
+﻿body {
+    position:relative;
+    
+}
+
+.footer {
+    color:white;
+    background-color:black;
+}
+
+#about {padding-top:50px;height:700px;color: #323232; font-family:inherit; background-color: #f2762c;}
+
+#about b {
+    line-height:20px;
+}
+
+#about a{
+    text-decoration:none;
+    color:white;
+    font-size:48px;
+    letter-spacing:-5px;
+}
+
+#services {padding-top:50px;height:700px;color: #b7b5b5; background-color: #323232;}
+
+#services h3{
+    color:#f2762c;
+}
+
+#services a{
+    text-decoration:none;
+    color:white;
+    font-size:48px;
+    letter-spacing:-2px;
+}
+
+#tech {padding-top:50px;height:700px;color: #323232; background-color: #a0d9d4;}
+
+#tech a{
+        text-decoration:none;
+        display:block;
+        letter-spacing:-5px;
+        color: white;
+        font-size:48px;
+  }    
+
+#tech kbd {
+    padding: .2rem .4rem;
+    font-size: 20px;
+    color: #fff;
+    background-color: #333;
+    border-radius: .2rem;
+}
+
+
+#contact {padding-top:50px;height:700px;color: black; background-color: #dcdcdc;}
+
+#contact a {
+    text-decoration:none;
+    display:block;
+    letter-spacing:-5px;
+    color:#2e2e2e;
+    font-size:48px;
+}
+
+
+.contactspan {
+    padding: 0 0 0 20px;
+    position:absolute;
+}
+.contactspan h3{
+    text-decoration:none;
+    display:block;
+    letter-spacing:-5px;
+    color:#2e2e2e;
+    font-size:35px;
+}
+
+.contactspan b{
+    color:#2e2e2e;
+}
+
+
