@@ -1,2 +1,2 @@
 # My-Website
-Some code frome my website
+Some code from my website
