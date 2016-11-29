@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+
+<html>
+    <head></head>
+
+         <body>
+         <!-- NavBar -->
+         <nav class="navbar navbar-inverse navbar-fixed-top ">
+             <div class="container-fluid">
+                 <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                     </button>
+                     <a class="navbar-brand" href="#">Andrea Schisani</a>
+                 </div>
+                 <div>
+                     <div class="collapse navbar-collapse" id="myNavbar">
+                         <ul class="nav navbar-nav">
+                             <li><a href="#about">About</a></li>
+                             <li><a href="#services">Services</a></li>
+                             <li><a href="#tech">Tech</a></li>
+                             <li><a href="#contact">Contact</a></li>
+                         </ul>
+                     </div>
+                 </div>
+                </div>
+            </nav>
+
+             <!-- BodyContainer -->
+             <asp:ContentPlaceHolder id="body" runat="server"></asp:ContentPlaceHolder>
+        
+        
+            <!-- ScrollSpy Function -->
+            <script>
+                $(document).ready(function(){
+                    $('body').scrollspy({target: ".navbar", offset: 50});
+                });
+            </script>
+     </body>
+</html>
